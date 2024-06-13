@@ -1,0 +1,14 @@
+Const Function
+
+We can make functions const by using const keyword in the function decleration
+We create functions an const so that accidental changes to objects are avoided
+
+Constant member functions are those functions that are fenied permissions to change the values of the data member of their class.
+const functions can be called by the non const objects.
+
+When a function is decleared as const, it can be called on any type of object.
+Non const functions can only be called by non-const objects.
+An object decleared as const 
+
+Q Write a program to create a function with name (sum) inside function definition create a variable result initilised with zero mark result variable as const number of a function now 
+

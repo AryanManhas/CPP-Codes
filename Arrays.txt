@@ -1,0 +1,9 @@
+Array is a collecion of elemnets with similar datatypes 
+Linear datatypes
+contigous memory locations
+
+Declearation of the array
+
+syntax
+
+Write a program to create a array with ten elemetns using direct methods and print sum of all ten eleements.

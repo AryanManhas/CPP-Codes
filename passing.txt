@@ -1,0 +1,46 @@
+passing and referring objects from functions in c++
+is essential for leaveriging the benefits of object oreinted programming promoting code reuse abstration and modularity and enabling efficient and flexible code design
+eg:
+#include<iostream>
+using namespace std;
+class Sum{
+    private:
+    int x;
+    int y;
+    public:
+    sum(int x1=0,int y1=0)
+    {
+        x=x1;
+        y=y1;
+    }
+    sum add(sum s)
+{
+    sum temp;
+    temp.x = x + s.x;
+    temp.y = y + s.y;
+    return temp;
+}
+void display(){
+    cout<<"x = "<< x <<"\n";
+    cout<<"y = "<< y <<"\n";
+}
+};
+
+int main()
+{
+    sum s1(5,10);
+    sum s2(10,20);
+    sum s3;
+    cout<<"Sum 1 \n;
+    s1.display();
+    cout<<"Sum 2 \n;
+    s2.display();
+    cout<<"THe Sum of two no. is \n";
+    s3.display();
+    return 0;
+}
+
+Write a program to create a class with name demo with private member variable a(numer) and b(power), create a default constructor of class and calculate power of a and b with parameter 5 and 3.
+create a constructor with parameter and calculate power of a as b by accepting the value ad arguments to parameter constrcutor.
+create a function display with accepts instances of class of class as parameter and return object after extraction,
+with the help of display function w will display the result of above calculations of default constrcutor and parametertrized constrcutor

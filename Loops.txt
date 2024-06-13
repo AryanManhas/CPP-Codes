@@ -1,0 +1,27 @@
+Three Types of Loops
+1.For Loops 
+syntax 
+for(initilization;condition;inc/dec)
+{
+    condition;
+}
+
+initilization;
+for(:conditon:)
+{
+    statement;
+    inc/dec;
+}
+
+2. While Loops
+syntax
+initilization
+while(conditon)
+{
+    statement;
+    inc/dec;
+}
+
+3. Do While Loops
+
+
